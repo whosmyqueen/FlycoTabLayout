@@ -1,2 +1,2 @@
 rootProject.name = "flyco-tab-layout"
-include ':app', ':flyco-tab-layout'
+include ':app', ':library'
