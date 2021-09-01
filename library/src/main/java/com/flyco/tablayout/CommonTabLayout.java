@@ -323,6 +323,7 @@ public class CommonTabLayout extends FrameLayout implements ValueAnimator.Animat
             if (mTextBold == TEXT_BOLD_WHEN_SELECT) {
                 tab_title.getPaint().setFakeBoldText(isSelect);
             }
+            tab_title.postInvalidate();
         }
     }
 
