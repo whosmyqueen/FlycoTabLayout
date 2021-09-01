@@ -1,1 +1,2 @@
-include ':app', ':FlycoTabLayout_Lib'
+rootProject.name = "flyco-tab-layout"
+include ':app', ':flyco-tab-layout'
