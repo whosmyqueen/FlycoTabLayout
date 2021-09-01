@@ -242,6 +242,7 @@ public class SegmentTabLayout extends FrameLayout implements ValueAnimator.Anima
             } else if (mTextBold == TEXT_BOLD_WHEN_SELECT) {
                 tv_tab_title.getPaint().setFakeBoldText(i == mCurrentTab);
             }
+            tv_tab_title.postInvalidate();
         }
     }
 

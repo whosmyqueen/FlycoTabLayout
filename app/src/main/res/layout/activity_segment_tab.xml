@@ -17,8 +17,9 @@
             android:layout_height="32dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            tl:tl_bar_color="#ffffff"
-            tl:tl_indicator_color="#2C97DE"
+            tl:tl_bar_color="#fff"
+            tl:tl_textBold="SELECT"
+            tl:tl_indicator_color="#000000"
             tl:tl_indicator_corner_radius="8dp"
             tl:tl_tab_padding="20dp"/>
 
